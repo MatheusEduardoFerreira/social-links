@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: hsl(0, 0%, 8%);
+    color: white;
+    margin: 0px;
+}
+
+.box{
+    background: hsl(0, 0%, 12%);
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem;
+    border-radius: 10px;
+ 
+
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.conteudo img{
+    border-radius: 300px;
+    margin: 0 auto;
+}
+
+.conteudo h1{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.conteudo p{
+    font-size: .9rem;
+    text-align: center;
+    padding-top: 5px;
+    color: hsl(75, 94%, 57%);
+}
+
+.conteudo span{
+    font-size: .8rem;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+   
+}
+
+.btns button{
+    margin: 5px;
+    padding: 13px;
+    background: hsl(0, 0%, 20%);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+
+.btns a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+   
+}
+
+.btns button:hover{
+    background: hsl(0, 0%, 8%);
+}
+
+footer{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
